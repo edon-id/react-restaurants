@@ -1,0 +1,62 @@
+a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+a:hover {
+  color: black;
+}
+.salmon-color {
+  color: rgb(240, 87, 70);
+}
+.bg-salmon {
+  background-color: rgb(240, 87, 70);
+}
+.bg-salmon:hover {
+  background-color: rgb(209, 77, 63);
+  color: white;
+}
+.btn-green {
+  background-color: rgb(3, 141, 3);
+  color: white;
+}
+.btn-green:hover {
+  color: white;
+  background-color: rgb(1, 128, 1);
+}
+.card {
+  min-height: 350px;
+}
+
+.hearts-absolute {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.img-ratio img {
+  aspect-ratio: 1/0.7;
+}
+.res {
+  display: block;
+  height: 200px;
+}
+
+.res img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.min-height-class {
+  min-height: calc(100vh - 200px);
+}
+.min-height-halfsize-class {
+  min-height: calc(100vh - 590px);
+}
+
